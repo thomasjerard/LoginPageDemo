@@ -1,0 +1,82 @@
+body{
+    background-color: aqua;
+}
+.container{
+    background-color: aliceblue;
+    height: 530px;
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 7%;
+}
+.BlueBar{
+    background-color: hwb(251 20% 24%) ;
+    height: 18%;
+    border-radius: 5px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.bottomText{
+    text-align: center;
+    font-size: large;
+}
+img{
+    width: 50px;
+    height: 50px;
+    padding : 42.5%;
+    padding-top: 6%;
+}
+.Text{
+    text-align: center;
+    color: hwb(251 20% 24%);
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    font-size: large;
+}
+.button{
+    text-align: center;
+}
+.InputText{
+    text-align: center;
+    padding : 10%; 
+    padding-top: 3%;
+    
+}
+.SignIn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    margin: auto;
+    cursor: pointer;
+    width: 80%;
+    height: 40px;
+    font-size: medium;
+    margin-bottom:20px;
+    margin-top: 0%;
+    border-radius: 5px;
+}
+.SignIn:hover{
+    background-color: #3e8e41;
+}
+input{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+}
+
+#username{
+    margin-top: 10px;
+}
+
+.bottom{
+    text-align: center;
+    color: hwb(0 8% 10%);
+    font-family: 'Roboto', sans-serif;
+}
